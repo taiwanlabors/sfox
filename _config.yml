@@ -1,0 +1,39 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 國際台勞連線
+email: sfoxhq@gmail.com
+description: "Podcast by 國際台勞連線"
+subtitle: "Podcast by 國際台勞連線"
+lang: zh-tw
+author: 國際台勞連線
+copyright: "CC-BY 4.0"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sfox.github.io" # the base hostname & protocol for your site
+twitter_username: sfox
+github_username:  sfox
+
+itunes_url: "https://reurl.cc/X6g8q0"
+spotify_url: "https://reurl.cc/20e9zv"
+googlepodcast_url: "https://reurl.cc/O1gNM7"
+
+permalink: /:title.html
+
+#Timezone
+timezone: Taiwan/Taipei
+
+#Setup for Pages
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+
+#Exclude local build settings
+exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
+
+theme: jekyll-theme-minimal
